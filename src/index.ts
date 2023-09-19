@@ -5,7 +5,7 @@ import { createNolaScene } from './nola';
 import { createParisScene } from './paris';
 
 
-export function constant() {
+export function main() {
 
     let frame = engine.addEntity()
   
