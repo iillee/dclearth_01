@@ -9,4 +9,4 @@ Next Steps:
  - expand city scenes by adding additional surrounding tiles
  - develop a method for easily switching between city scenes
  - optimize 3D tiles for file size
- - automating tile .glb creation process if possible
+ - automate tile .glb creation process if possible
