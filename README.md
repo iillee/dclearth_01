@@ -1,12 +1,12 @@
-Initial test of importing 3D geometry from Google Tiles into blender then into a DCL scene.
+Second test of importing 3D geometry from Google Tiles into blender then into a DCL scene.
 
-Process is pretty straightforward so far. Start with this tutorial/add on to get google data into blender: https://www.youtube.com/watch?v=BE65zyZyZ9k
+Process is pretty straightforward. Start with this tutorial/add on to get google data into blender: https://www.youtube.com/watch?v=BE65zyZyZ9k
 
-This scene showcases 3 test tiles: Berlin, New Orleans, and Paris, each roughly 320 meters by 320 meters (20 parcels by 20 parcels). Right now, visual and collider layers are split into two .glbs to keep file sizes under 50mb.
+This scene showcases a portion of Venice, Italy (roughly 15%) scaled down to 20%
 
 Next Steps: 
- - test deploy to a DCL World
  - expand city scenes by adding additional surrounding tiles
- - develop a method for easily switching between city scenes
- - optimize 3D tiles for file size
+ - expand parcel size of scene, scale avatar size down, or figure out illusion for loading similar to infinity engine
+ - scale up tiles to 100%
+ - optimize 3D tiles for file size and bake in materials
  - automate tile .glb creation process if possible
