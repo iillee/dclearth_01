@@ -1,5 +1,6 @@
 import { engine, GltfContainer, Transform, ColliderLayer } from '@dcl/sdk/ecs'
-import { Vector3,Quaternion } from '@dcl/sdk/math'
+import { Quaternion } from '@dcl/sdk/math'
+import { scale, x, y, z } from './transforms'
 
 export function createVenice_Row5_Scene() {
 
@@ -11,8 +12,8 @@ export function createVenice_Row5_Scene() {
     }) 
 
     Transform.create(tile_01, {
-      position: Vector3.create(44, -5, 148),
-      scale: Vector3.create(.2, .2, .2),
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)},
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
@@ -24,8 +25,8 @@ export function createVenice_Row5_Scene() {
     }) 
 
     Transform.create(tile_02, {
-      position: Vector3.create(44, -5, 148),
-      scale: Vector3.create(.2, .2, .2),
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)},
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
@@ -37,8 +38,8 @@ export function createVenice_Row5_Scene() {
     }) 
 
     Transform.create(tile_03, {
-      position: Vector3.create(44, -5, 148),
-      scale: Vector3.create(.2, .2, .2),
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)},
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
@@ -50,8 +51,8 @@ export function createVenice_Row5_Scene() {
     }) 
 
     Transform.create(tile_04, {
-      position: Vector3.create(44, -5, 148),
-      scale: Vector3.create(.2, .2, .2),
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)},
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
@@ -63,8 +64,8 @@ export function createVenice_Row5_Scene() {
     }) 
 
     Transform.create(tile_05, {
-      position: Vector3.create(44, -5, 148),
-      scale: Vector3.create(.2, .2, .2),
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)},
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
@@ -76,8 +77,8 @@ export function createVenice_Row5_Scene() {
     }) 
 
     Transform.create(tile_06, {
-      position: Vector3.create(44, -5, 148),
-      scale: Vector3.create(.2, .2, .2),
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)},
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
