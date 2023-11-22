@@ -4,20 +4,7 @@ import { scale, x, y, z } from './transforms'
 
 
 export function createVenice_RowA() {
-
-  let tile_X= engine.addEntity()
-
-  GltfContainer.create(tile_X, {
-    src: 'models/F10_04.glb',
-    visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
-  }) 
-
-  Transform.create(tile_X, {
-    position: { x: (x), y: (z), z: (y)}, 
-    scale: { x: (scale), y: (scale), z: (scale)}, 
-    rotation: Quaternion.fromEulerDegrees(0, 180, 0)
-  })
-
+  
     let tile_03= engine.addEntity()
 
     GltfContainer.create(tile_03, {
