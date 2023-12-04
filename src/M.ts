@@ -281,4 +281,56 @@ export function createVenice_RowM() {
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
+    let tile_22= engine.addEntity()
+
+    GltfContainer.create(tile_22, {
+      src: 'models/tiles/M22.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_22, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+    
+    let tile_23= engine.addEntity()
+
+    GltfContainer.create(tile_23, {
+      src: 'models/tiles/M23.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_23, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
+    let tile_24= engine.addEntity()
+
+    GltfContainer.create(tile_24, {
+      src: 'models/tiles/M24.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_24, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
+    let tile_25= engine.addEntity()
+
+    GltfContainer.create(tile_25, {
+      src: 'models/tiles/M25.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_25, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
 } 

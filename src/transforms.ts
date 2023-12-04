@@ -1,4 +1,4 @@
-export   const scale = .05
-export   const x = 112
-export   const y = 80
+export   const scale = .2
+export   const x = 0
+export   const y = 0
 export   const z = 0

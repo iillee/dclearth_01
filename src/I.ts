@@ -319,4 +319,18 @@ export function createVenice_RowI() {
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)
     })
 
+    
+    let tile_25= engine.addEntity()
+
+    GltfContainer.create(tile_25, {
+      src: 'models/tiles/I25.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_25, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
 } 

@@ -5,6 +5,32 @@ import { scale, x, y, z } from './transforms'
 
 export function createVenice_RowC() {
 
+    let tile_01= engine.addEntity()
+
+    GltfContainer.create(tile_01, {
+      src: 'models/tiles/C01.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_01, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
+    let tile_02= engine.addEntity()
+
+    GltfContainer.create(tile_02, {
+      src: 'models/tiles/C02.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_02, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
     let tile_03= engine.addEntity()
 
     GltfContainer.create(tile_03, {
@@ -301,19 +327,6 @@ export function createVenice_RowC() {
     }) 
 
     Transform.create(tile_25, {
-      position: { x: (x), y: (z), z: (y)}, 
-      scale: { x: (scale), y: (scale), z: (scale)}, 
-      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
-    })
-
-    let tile_26= engine.addEntity()
-
-    GltfContainer.create(tile_26, {
-      src: 'models/tiles/C26.glb',
-      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
-    }) 
-
-    Transform.create(tile_26, {
       position: { x: (x), y: (z), z: (y)}, 
       scale: { x: (scale), y: (scale), z: (scale)}, 
       rotation: Quaternion.fromEulerDegrees(0, 180, 0)

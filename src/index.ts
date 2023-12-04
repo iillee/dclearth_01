@@ -12,16 +12,13 @@ import { createVenice_RowK } from './K';
 import { createVenice_RowL } from './L';
 import { createVenice_RowM } from './M';
 
-export function main() {
-}
-
-//createVenice_RowA();
+createVenice_RowA();
 //createVenice_RowB();
 //createVenice_RowC();
-createVenice_RowD();
-createVenice_RowE();
-createVenice_RowF();
-createVenice_RowG();
+//createVenice_RowD();
+//createVenice_RowE();
+//createVenice_RowF();
+//createVenice_RowG();
 //createVenice_RowH();
 //createVenice_RowI();
 //createVenice_RowJ();

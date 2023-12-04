@@ -5,6 +5,32 @@ import { scale, x, y, z } from './transforms'
 
 export function createVenice_RowE() {
 
+    let tile_01= engine.addEntity()
+
+    GltfContainer.create(tile_01, {
+      src: 'models/tiles/E01.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_01, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
+    let tile_02= engine.addEntity()
+
+    GltfContainer.create(tile_02, {
+      src: 'models/tiles/E02.glb',
+      visibleMeshesCollisionMask: ColliderLayer.CL_PHYSICS,
+    }) 
+
+    Transform.create(tile_02, {
+      position: { x: (x), y: (z), z: (y)}, 
+      scale: { x: (scale), y: (scale), z: (scale)}, 
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    })
+
     let tile_03= engine.addEntity()
 
     GltfContainer.create(tile_03, {
