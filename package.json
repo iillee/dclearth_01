@@ -11,8 +11,8 @@
     "watch": "sdk-commands start"
   },
   "devDependencies": {
-    "@dcl/js-runtime": "7.3.29",
-    "@dcl/sdk": "^7.3.29"
+    "@dcl/js-runtime": "7.3.30",
+    "@dcl/sdk": "^7.3.30"
   },
   "engines": {
     "node": ">=16.0.0",

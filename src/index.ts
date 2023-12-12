@@ -1,27 +1,14 @@
-import { createVenice_RowA } from './A';
-import { createVenice_RowB } from './B';
-import { createVenice_RowC } from './C';
+
 import { createVenice_RowD } from './D';
 import { createVenice_RowE } from './E';
 import { createVenice_RowF } from './F';
 import { createVenice_RowG } from './G';
 import { createVenice_RowH } from './H';
 import { createVenice_RowI } from './I';
-import { createVenice_RowJ } from './J';
-import { createVenice_RowK } from './K';
-import { createVenice_RowL } from './L';
-import { createVenice_RowM } from './M';
 
-createVenice_RowA();
-//createVenice_RowB();
-//createVenice_RowC();
-//createVenice_RowD();
-//createVenice_RowE();
-//createVenice_RowF();
-//createVenice_RowG();
+createVenice_RowD();
+createVenice_RowE();
+createVenice_RowF();
+createVenice_RowG();
 //createVenice_RowH();
 //createVenice_RowI();
-//createVenice_RowJ();
-//createVenice_RowK();
-//createVenice_RowL();
-//createVenice_RowM();
